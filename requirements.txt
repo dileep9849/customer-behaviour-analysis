@@ -3,8 +3,8 @@ numpy
 pandas
 seaborn
 datetime
-plotly.express
-warnings
-matplotlib.pyplot
+plotly
+matplotlib
 joblib
 streamlit
+sklearn
