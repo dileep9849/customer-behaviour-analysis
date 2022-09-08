@@ -3,6 +3,6 @@ pandas
 seaborn
 datetime
 plotly
-matplotlib.pyplot
+matplotlib
 joblib
 streamlit
