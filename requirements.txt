@@ -1,9 +1,8 @@
-
 numpy
 pandas
 seaborn
 datetime
-plotly.express
+plotly
 matplotlib.pyplot
 joblib
 streamlit
