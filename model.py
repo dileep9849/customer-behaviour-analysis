@@ -14,10 +14,10 @@ def web_app():
     st.subheader("Kindly Enter The following Details in order to make a prediction")
 
     INCOME = st.number_input("INCOME",1600,120000)
-    AGE = st.number_input("AGE",22,80)
-    Month_Customer = st.number_input("Month_Customer",10,50)
-    TotalSpendings = st.number_input("TotalSpendings",200,3000)
-    Children = st.number_input("Children",0,3)
+    AGE = st.number_input("AGE",80,80)
+    Month_Customer = st.number_input("Month_Customer",50,50)
+    TotalSpendings = st.number_input("TotalSpendings",3000,3000)
+    Children = st.number_input("Children",3,3)
     
     if st.button("Press here to make Prediction"):
         
