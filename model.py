@@ -13,7 +13,7 @@ def web_app():
     st.header("User Details")
     st.subheader("Kindly Enter The following Details in order to make a prediction")
 
-    INCOME = st.number_input("INCOME",1600,120000)
+    INCOME = st.number_input("INCOME",120000,120000)
     AGE = st.number_input("AGE",80,80)
     Month_Customer = st.number_input("Month_Customer",50,50)
     TotalSpendings = st.number_input("TotalSpendings",3000,3000)
