@@ -9,14 +9,7 @@ def web_app():
     # Customer Behaviour Analysis with Machine Learning
     ## This app predicts to which category a customer belongs too
    """)
-    page_bg_img = '''
-    <style>
-     body {
-      background-image: url("https://contentsquare.com/wp-content/uploads/2020/03/customer-behavior-analysis-scaled.jpeg");
-      background-size: cover;
-      }
-      </style>
-               '''
+    st.image("https://th.bing.com/th/id/OIP.yciGPanBfdp74l_9SVDcDwHaE8?w=222&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7")
     st.markdown(page_bg_img, unsafe_allow_html=True)
     st.header("User Details")
     st.subheader("Kindly Enter The following Details in order to make a prediction")
